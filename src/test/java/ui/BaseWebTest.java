@@ -22,6 +22,7 @@ public class BaseWebTest {
     @BeforeAll
     public static void config() {
         Configuration.baseUrl = "https://store.steampowered.com/";
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         SelenideLogger.addListener("Allure",new AllureSelenide());
     }
 }
