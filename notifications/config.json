@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "steam-test",
+    "environment": "steam",
+    "comment": "notification from allure",
+    "reportLink": "https://jenkins.autotests.cloud",
+    "language": "ru",
+    "allureFolder": "build/allure-report/",
+    "enableChart": false
+  },
+  "telegram": {
+    "token": "6614303707:AAFmbEe7aPzN5E-TxQCQd5-e8ynkNciiXTQ",
+    "chat": "764019206",
+    "replyTo": ""
+  }
+}

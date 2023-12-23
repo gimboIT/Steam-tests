@@ -1,0 +1,4 @@
+id 764019206
+
+Run jar with notification
+java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.6.1.jar
