@@ -5,9 +5,9 @@
     "environment": "steam",
     "comment": "notification from allure",
     "reportLink": "https://jenkins.autotests.cloud",
-    "language": "ru",
+    "language": "en",
     "allureFolder": "build/allure-report/",
-    "enableChart": false
+    "enableChart": true
   },
   "telegram": {
     "token": "6614303707:AAFmbEe7aPzN5E-TxQCQd5-e8ynkNciiXTQ",

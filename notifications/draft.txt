@@ -2,3 +2,8 @@ id 764019206
 
 Run jar with notification
 java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.6.1.jar
+
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id": "764019206", "text": "This is a test from curl", "disable_notification": true}' \
+     https://api.telegram.org/bot6614303707:AAFmbEe7aPzN5E-TxQCQd5-e8ynkNciiXTQ/sendMessage
